@@ -130,3 +130,11 @@ git commit -m "c3: Añadidas imágenes y texto final"
 git log
 ```
 ![Diferentes instantáneas](./images/imagen7.png)
+
+## 12. Crear el repositorio remoto
+1.	Vamos a GitHub y creamos un nuevo repositorio.
+2.	Copiamos la URL del repositorio.
+3. En Git Bash añadimos el repositorio remoto, usamos el comando `git remote add nombre_repositorio
+url_repositorio`
+4. Para subir los cambios a un repositorio remoto, usamos el comando `git push origin
+nombre_rama`
