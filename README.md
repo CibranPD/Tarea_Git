@@ -138,3 +138,5 @@ git log
 url_repositorio`
 4. Para subir los cambios a un repositorio remoto, usamos el comando `git push origin
 nombre_rama`
+
+![push a remoto](./images/imagen8.png)
