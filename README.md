@@ -95,6 +95,8 @@ Y verificamos su estado con:
 git status
 ```
 
+![Crear carpeta images](./images/imagen5.png)
+
 ---
 
 ## 8. Editar el archivo `README.md` en VS Code
@@ -115,13 +117,16 @@ git commit -m "c2: Actualización del README.md"
 ## 10. Añadir imágenes y actualizar el `README.md`
 Copiamos las imágenes en la carpeta `images` y actualizamos el archivo `README.md` para incluirlas.
 
+![Añadimos imágenes](./images/imagen6.png)
+
 ---
 
 ## 11. Realizar el tercer commit
-Realizamos el tercer commit para guardar los cambios finales:  
+Realizamos el tercer commit para guardar los cambios finales. Se pueden ver las diferentes instantáneas con git log  
 
 ```bash
 git add .
 git commit -m "c3: Añadidas imágenes y texto final"
+git log
 ```
-```
+![Diferentes instantáneas](./images/imagen7.png)
